@@ -7,5 +7,5 @@ COPY target/addressbook-2.0.war /usr/local/tomcat/webapps/
 # Expose the default Tomcat port (8080)
 EXPOSE 8080
 
-# Command to run Tomcat
+# Command to run  tomcat
 CMD ["catalina.sh", "run"]
